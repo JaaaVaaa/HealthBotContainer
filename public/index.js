@@ -118,10 +118,10 @@ function initBotConversation() {
 
                             triggeredScenario: {
                                 trigger: "CDC_HRQOL_14",
-                               // args: {
-                                  //  location: location,
-                                  //  myVar1: "{custom_arg_1}",
-                                  //  myVar2: "{custom_arg_2}"
+                                    args: {
+                                    location: location,
+                                    myVar1: "{custom_arg_1}",
+                                    myVar2: "{custom_arg_2}"
                                 }
                             }
 
